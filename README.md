@@ -4,7 +4,7 @@ Just A Mere Unit Converter :)
 Deployment : https://dee-codez.github.io/Unit-Converter/
 <br/>
 #Screenshots :
-![image](https://github.com/Dee-Codez/Unit-Converter/assets/114132607/9c39d78b-ecfa-4e2b-a825-7d4f970ef193)
+
 
 ![image](https://github.com/Dee-Codez/Unit-Converter/assets/114132607/dd59e68f-7cd2-498d-b758-08d13927baaf)
 
