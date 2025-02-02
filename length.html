@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Length Converter</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <div class="parent">
+        <div class="header">
+            <h2>LENGTH CONVERTER</h2>
+        </div>
+        <p class="caption">Type In Any Value To Get Converted Values In Other Units</p>
+        <br>
+        <div class="form">
+            <div class="input">
+                <label for="feet">Feet</label><input type="number" name="" id="feet"  oninput="convertToOthers('feet',this.value)"><div class="unit">ft</div>
+            </div>
+            <div class="input">
+                <label for="meter">Meters</label><input type="number" name="" id="meter" oninput="convertToOthers('meter',this.value)"><div class="unit">m</div>
+            </div>
+            <div class="input">
+                <label for="inches">Inches</label><input type="number" name="" id="inches" oninput="convertToOthers('inch',this.value)"><div class="unit">in</div>
+            </div>
+            <div class="input">
+                <label for="cm">Centimeters</label><input type="number" name="" id="cm" oninput="convertToOthers('cm',this.value)"><div class="unit">cm</div>
+            </div>
+            <div class="input">
+                <label for="yards">Yards</label><input type="number" name="" id="yards" oninput="convertToOthers('yard',this.value)"><div class="unit">yd</div>
+            </div>
+            <div class="input">
+                <label for="km">Kilometers</label><input type="number" name="" id="km" oninput="convertToOthers('km',this.value)"><div class="unit">km</div>
+            </div>
+            <div class="input">
+                <label for="miles">Miles</label><input type="number" name="" id="miles" oninput="convertToOthers('mile',this.value)"><div class="unit">mi</div>
+            </div>
+        </div>
+        <div class="homebtn">
+            <a href="index.html" class="btn"><div class="home">HOME</div></a>
+        </div>
+        <br>
+        <br>
+    </div>
+</body>
+</html>

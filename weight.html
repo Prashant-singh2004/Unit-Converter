@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weight Converter</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <div class="parent">
+        <div class="header">
+            <h2>WEIGHT CONVERTER</h2>
+        </div>
+        <p class="caption">Type In Any Value To Get Converted Values In Other Units</p>
+        <br>
+        <div class="form">
+            <div class="input">
+                <label for="kg">Kilograms</label><input type="number" name="" id="kg"  oninput="convertToOthers('kg',this.value)"><div class="unit">kg</div>
+            </div>
+            <div class="input">
+                <label for="gm">Grams</label><input type="number" name="" id="gm" oninput="convertToOthers('gm',this.value)"><div class="unit">gm</div>
+            </div>
+            <div class="input">
+                <label for="mt">Metric Tons</label><input type="number" name="" id="mt" oninput="convertToOthers('mt',this.value)"><div class="unit">mt</div>
+            </div>
+            <div class="input">
+                <label for="lb">Pounds</label><input type="number" name="" id="lb" oninput="convertToOthers('lb',this.value)"><div class="unit">lb</div>
+            </div>
+            <div class="input">
+                <label for="oz">Ounces</label><input type="number" name="" id="oz" oninput="convertToOthers('oz',this.value)"><div class="unit">oz</div>
+            </div>
+        </div>
+        <div class="homebtn">
+            <a href="index.html" class="btn"><div class="home">HOME</div></a>
+        </div>
+    </div>
+</body>
+</html>

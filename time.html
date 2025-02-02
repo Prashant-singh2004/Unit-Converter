@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weight Converter</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <div class="parent">
+        <div class="header">
+            <h2>TIME CONVERTER</h2>
+        </div>
+        <p class="caption">Type In Any Value To Get Converted Values In Other Units</p>
+        <br>
+        <div class="form">
+            <div class="input">
+                <label for="s">Seconds</label><input type="number" name="" id="s"  oninput="convertToOthers('s',this.value)"><div class="unit">s</div>
+            </div>
+            <div class="input">
+                <label for="ms">Milli Seconds</label><input type="number" name="" id="ms" oninput="convertToOthers('ms',this.value)"><div class="unit">ms</div>
+            </div>
+            <div class="input">
+                <label for="min">Minutes</label><input type="number" name="" id="min" oninput="convertToOthers('min',this.value)"><div class="unit">min</div>
+            </div>
+            <div class="input">
+                <label for="hr">Hours</label><input type="number" name="" id="hr" oninput="convertToOthers('hr',this.value)"><div class="unit">hr</div>
+            </div>
+            <div class="input">
+                <label for="d">Days</label><input type="number" name="" id="d" oninput="convertToOthers('d',this.value)"><div class="unit">d</div>
+            </div>
+            <div class="input">
+                <label for="w">Weeks</label><input type="number" name="" id="w" oninput="convertToOthers('w',this.value)"><div class="unit">w</div>
+            </div>
+        </div>
+        <div class="homebtn">
+            <a href="index.html" class="btn"><div class="home">HOME</div></a>
+        </div>
+    </div>
+</body>
+</html>

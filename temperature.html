@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Temperature Converter</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <div class="parent">
+        <div class="header">
+            <h2>TEMPERATURE CONVERTER</h2>
+        </div>
+        <p class="caption">Type In Any Value To Get Converted Values In Other Units</p>
+        <br>
+        <div class="form">
+            <div class="input">
+                <label for="celsius">Celsius</label><input type="number" name="" id="celsius"  oninput="convertToOthers('celsius',this.value)"><div class="unit">°C</div>
+            </div>
+            <div class="input">
+                <label for="meter">Kelvin</label><input type="number" name="" id="kelvin" oninput="convertToOthers('kelvin',this.value)"><div class="unit">K</div>
+            </div>
+            <div class="input">
+                <label for="inches">Fahrenheit</label><input type="number" name="" id="fahrenheit" oninput="convertToOthers('fahrenheit',this.value)"><div class="unit">°F</div>
+            </div>
+        </div>
+        <div class="homebtn">
+            <a href="index.html" class="btn"><div class="home">HOME</div></a>
+        </div>
+    
+    
+    </div>
+    
+</body>
+</html>
